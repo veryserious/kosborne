@@ -1,0 +1,49 @@
+{
+  "name": "sage",
+  "homepage": "https://roots.io/sage/",
+  "authors": [
+    "Ben Word <ben@benword.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "overrides": {
+    "isotope": {
+      "main": [
+        "js/item.js",
+        "js/layout-mode.js",
+        "js/isotope.js",
+        "js/layout-modes/vertical.js",
+        "js/layout-modes/fit-rows.js",
+        "js/layout-modes/masonry.js"
+      ],
+      "dependencies": {
+        "outlayer": "1.3.x",
+        "masonry": "3.2.x"
+      }
+    },
+    "outlayer": {
+      "main": [
+        "item.js",
+        "outlayer.js"
+      ]
+    }
+  },
+  "dependencies": {
+    "bootstrap": "git://github.com/twbs/bootstrap.git#v4.0.0-beta",
+    "popper.js": "^1.12.3",
+    "jquery_appear": "appear#^0.3.6",
+    "easing": "*",
+    "elevatezoom": "^2.2.3",
+    "freewall": "^1.0.6",
+    "fullpage.js": "fullpage#^2.9.4",
+    "isotope": "^3.0.4",
+    "magnific-popup": "^1.1.0",
+    "mediaelement": "^4.2.6",
+    "modernizr": "^3.5.0",
+    "neko-framework": "./neko-framework/neko-framework.js",
+    "external-plugins": "./external-plugins/external-plugins.js",
+    "parallax": "^2.1.3",
+    "superslides": "^0.6.2",
+    "swiper": "^3.4.2"
+  }
+}

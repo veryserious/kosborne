@@ -1,0 +1,42 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/main.js"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],
+      "main": true
+    },
+    "customizer.js": {
+      "files": [
+        "scripts/customizer.js"
+      ]
+    },
+    "custom.js": {
+      "files": [
+        "scripts/custom.js"
+      ]
+    },
+    "neko-framework.js": {
+      "files": [
+        "scripts/neko-framework.js"
+      ]
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    },
+    "modernizr.js": {
+      "files": [
+        "scripts/modernizr.js"
+      ]
+    },
+  "config": {
+    "devUrl": "http://example.dev"
+  }
+}
+}

@@ -1,0 +1,23 @@
+{
+  "minify": true,
+  "options": [
+    "setClasses"
+  ],
+  "feature-detects": [
+    "test/css/animations",
+    "test/css/columns",
+    "test/css/generatedcontent",
+    "test/css/gradients",
+    "test/css/mediaqueries",
+    "test/css/pseudoanimations",
+    "test/css/pseudotransitions",
+    "test/css/reflections",
+    "test/css/transforms",
+    "test/css/transforms3d",
+    "test/css/transitions",
+    "test/mediaquery/hovermq",
+    "test/mediaquery/pointermq",
+    "test/webrtc/getusermedia",
+    "test/window/matchmedia"
+  ]
+}

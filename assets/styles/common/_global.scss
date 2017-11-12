@@ -1,0 +1,79 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+2. Bloc images
+3. Coming soon
+4. Miscelaneous
+-------------------------------------------------------------------*/
+
+
+
+/*
+|--------------------------------------------------------------------------
+| 2. Bloc images
+|--------------------------------------------------------------------------
+*/	
+
+.image-card {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 550px;
+}
+
+
+
+/*
+|--------------------------------------------------------------------------
+| 3. Coming soon
+|--------------------------------------------------------------------------
+*/	
+
+
+#coming-soon-3 label {
+	display:none;
+}
+
+#coming-soon-3 .form-control {
+	color:white;
+	font-weight: bold;
+}
+
+.logo-coming-soon {
+width:200px;
+}
+
+/*
+|--------------------------------------------------------------------------
+| 4. Miscelaneous
+|--------------------------------------------------------------------------
+*/	
+
+/** single portfolio **/
+#back-to-portfolio i:before{
+	margin-right: 17px;
+}
+
+/* fixing footer on mobile */
+
+@media (max-width: 767px) {
+.footer-widget.text-center,
+.footer-widget.text-right{
+	text-align: left; 
+}
+}
+
+ol.demo-list {
+	padding:0;
+	margin:0;
+	list-style-position: inside;
+}
+ol.demo-list li {
+	padding:10px 0;
+}
+
+.heading:after {
+    bottom: 0px;
+}
+
+
