@@ -10,4 +10,10 @@
       columnWidth: '.grid-sizer'
     }
   });
+
+  // layout Isotope after each image loads
+$grid.imagesLoaded().progress( function() {
+  $grid.isotope('layout');
+});
+
 })(jQuery);
