@@ -1,1 +1,0 @@
-!function(i){i(".grid").isotope({itemSelector:".grid-item",percentPosition:!0,masonry:{columnWidth:".grid-sizer"}}),$grid.imagesLoaded().progress(function(){$grid.isotope("layout")})}(jQuery);
