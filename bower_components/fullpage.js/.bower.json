@@ -28,15 +28,14 @@
   "dependencies": {
     "jquery": ">=1.6.0"
   },
-  "version": "2.9.4",
-  "_release": "2.9.4",
+  "version": "2.9.5",
+  "_release": "2.9.5",
   "_resolution": {
     "type": "version",
-    "tag": "2.9.4",
-    "commit": "c2d3fb5793790ed2af173e0915803dc967158777"
+    "tag": "2.9.5",
+    "commit": "fc34fb061ea7e03dac93a45c0673b2307ee6a76d"
   },
   "_source": "https://github.com/alvarotrigo/fullPage.js.git",
   "_target": "^2.9.4",
-  "_originalSource": "fullpage",
-  "_direct": true
+  "_originalSource": "fullpage"
 }

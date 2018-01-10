@@ -139,6 +139,7 @@ function custom_add_google_fonts() {
  */
 require_once(get_template_directory() . '/class-wp-bootstrap-navwalker.php');
 
+
 /**
  * Theme assets
  */
@@ -152,3 +153,17 @@ function assets() {
   wp_enqueue_script('custom/js', Assets\asset_path('scripts/custom.js'), ['jquery'], null, true);
 }
 add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\assets', 100);
+
+/**
+ * Defer Javascript Parsing using HTML 5 property
+ */
+
+if (!(is_admin() )) {
+  function defer_parsing_of_js ( $url ) {
+      if ( FALSE === strpos( $url, '.js' ) ) return $url;
+      if ( strpos( $url, 'jquery.js' ) ) return $url;
+      // return "$url' defer ";
+      return "$url' defer onload='";
+  }
+  add_filter( 'clean_url', __NAMESPACE__ . '\\defer_parsing_of_js', 11, 1 );
+}
